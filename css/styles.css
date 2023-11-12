@@ -1,6 +1,6 @@
 body {
   color: #434455;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -8,951 +8,168 @@ a {
 ul {
   list-style: none;
 }
-/* == HEADER == */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* ============================= HEADER ================================ */
 
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  /* Studio */
-
-  width: 71px;
-  height: 21px;
-
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  /* NAVY BLUE */
+}
+.header-logo-word {
   color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .nav-item {
-  /* Portfolio */
-
-  width: 66px;
-  height: 24px;
-
-  /* Body Medium */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .nav-link {
-  /* Studio */
-
-  width: 48px;
-  height: 24px;
-
-  /* Body Medium */
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.adress-link-mail {
-  /* info@devstudio.com */
-
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
-
-  /* Body */
-  font-family: "Roboto";
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.header-adress {
+  font-style: normal;
+}
+.adress-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: #434455;
 }
-.adress-link-tel {
-  /* +11 (000) 111-11-11 */
-
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf;
 }
-/* ==MAIN== */
-.head-text {
-  /* Effective Solutions for Your Business */
+/* ======================= MAIN ================================ */
 
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
-
-  /* Header 1 */
-  font-family: "Roboto";
+/* ======================= HERO ================================ */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  /* or 107% */
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
-  /* WHITE */
   color: #ffffff;
 }
-.head-button {
-  /* Order Service */
-
-  width: 105px;
-  height: 24px;
-
-  /* Button Text */
-  font-family: "Roboto";
+.hero-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  display: flex;
-  align-items: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-
-  /* WHITE */
   color: #ffffff;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
-.strategy-head {
-  /* Strategy */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
-  width: 264px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
+/* ======================= Advantages ================================ */
+.advantages-head {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.strategy-head-text {
-  /* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
-
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-  font-family: "Roboto";
+.advantages-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
-.punctuality-head {
-  /* Punctuality */
-
-  width: 264px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.punctuality-head-text {
-  /* Bring the key message to the brand's audience for the best price within the shortest possible time. */
-
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.diligence-head {
-  /* Diligence */
-
-  width: 264px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.diligence-head-text {
-  /* Research and confirm brands that present the strongest digital growth opportunities and minimize risk. */
-
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.technologies-head {
-  /* Technologies */
-
-  width: 264px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.technologies-head-text {
-  /* Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. */
-
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
+/* ======================= TEAM ================================ */
 .team {
-  /* Our Team */
-
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1136px;
-
-  /* Header 2 */
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
+  background-color: #f4f4fd;
+}
+.team-list {
+}
+.team-item {
+}
+.team-member {
   text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ======================= PORTFOLIO ================================ */
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
   color: #2e2f42;
 }
-.team-about {
-}
-.team-mark {
-}
-.mark-head {
-  /* Mark Guerrero */
 
-  width: 134px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.mark-text {
-  /* Product Designer */
-
-  width: 128px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
+.portfolio-app {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.team-tom {
-}
-.tom-head {
-  /* Tom Ford */
-
-  width: 88px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.tom-text {
-  /* Frontend Developer */
-
-  width: 144px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.team-camila {
-}
-.camila-head {
-  /* Camila Garcia */
-
-  width: 130px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.camila-text {
-  /* Marketing */
-
-  width: 75px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.team-daniel {
-}
-.daniel-head {
-  /* Daniel Wilson */
-
-  width: 127px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.daniel-text {
-  /* UI Designer */
-
-  width: 85px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.ourportfolio {
-  /* Our Portfolio */
-
-  position: absolute;
-  width: 218px;
-  height: 40px;
-  left: 611px;
-  top: 1868px;
-
-  /* Header 2 */
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-}
-.team-portfolio {
-}
-.bank {
-}
-.bank-head {
-  /* Banking App */
-
-  width: 118px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.bank-head-text {
-  /* App */
-
-  width: 30px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.cashless {
-}
-.cashless-head {
-  /* Cashless Payment */
-
-  width: 172px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.cashless-head-text {
-  /* Marketing */
-
-  width: 75px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.meditation {
-}
-.meditation-head {
-  /* Meditaion App */
-
-  width: 143px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.meditation-head-text {
-  /* App */
-
-  width: 30px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.taxi {
-}
-.taxi-head {
-  /* Taxi Service */
-
-  width: 113px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.taxi-head-text {
-  /* Marketing */
-
-  width: 75px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.screen {
-}
-.screen-head {
-  /* Screen Illustrations */
-
-  width: 181px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.screen-head-text {
-  /* Design */
-
-  width: 51px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.course {
-}
-.course-head {
-  /* Online Courses */
-
-  width: 142px;
-  height: 24px;
-
-  /* Header 3 */
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.course-head-text {
-  /* Marketing */
-
-  width: 75px;
-  height: 24px;
-
-  /* Body */
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
-/* FOOTER */
-
-.header-logo {
-  /* Logo */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 3088px;
-
-  /* Web */
-
-  width: 44px;
-  height: 21px;
-
+/* ============================== FOOTER ================================ */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
   color: #4d5ae5;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  /* Studio */
-
-  width: 71px;
-  height: 21px;
-
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  /* CLOUD */
+}
+.footer-logo-word {
   color: #f4f4fd;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .footer-text {
-  /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
-
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 3128px;
-
-  /* Body */
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* CLOUD */
   color: #f4f4fd;
 }
